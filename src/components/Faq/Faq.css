@@ -1,0 +1,135 @@
+/* styling Faq */
+#faq {
+    margin-top: 10px;
+    padding: 30px;
+    /* width: 0%; */
+}
+
+.flexRowBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexRowArround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexColArround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexColBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqCollapsSection {
+    min-height: 680px;
+    width: 60%;
+    margin: 20px;
+    /* padding: 40px; */
+}
+
+.faqQuestion {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 0px !important;
+}
+
+.faqParagraphe {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #087DAF;
+    border: 0px;
+    padding: 10px;
+}
+
+.faqTitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    border-bottom: solid 1px #f7c35f;
+
+}
+
+.iconFaq {
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+.faqImage {
+    width: 400px;
+    height: 680px;
+    border-radius: 10px
+}
+
+/* animated transitions */
+
+@media (max-width: 990px) {
+
+    #faq{
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .faqCollapsSection {
+        /* height: 680px; */
+        width: 100%;
+        padding: 30px;
+
+    }
+
+    .faqQuestion {
+
+
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+
+
+
+    }
+
+    .faqParagraphe {
+
+        font-size: 12px;
+
+
+
+    }
+
+    .iconFaq {
+        font-size: large;
+        cursor: pointer;
+
+
+    }
+
+    .faqImage {
+        width: 350px;
+        height: 350px;
+        border-radius: 10px
+    }
+
+    .faqTitle {
+        font-size: 16px;
+    }
+}

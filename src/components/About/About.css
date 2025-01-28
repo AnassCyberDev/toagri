@@ -1,0 +1,68 @@
+#about {
+    margin: 20px;
+}
+
+.aboutTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+
+}
+
+.aboutImage {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 430px;
+    height: 420px
+}
+
+
+
+
+
+.aboutP {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+
+}
+
+@media (max-width:600px) {
+
+    #about {
+        margin-inline: 0px;
+    }
+
+    .aboutTitle {
+
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+
+    }
+
+    .aboutP {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+
+    }
+
+    .smSc {
+        margin-inline: 0px !important;
+    }
+
+    .psmSc {
+        padding-inline: 0px !important;
+    }
+
+    .aboutImage {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+}

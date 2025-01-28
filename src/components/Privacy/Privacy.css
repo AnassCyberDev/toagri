@@ -1,0 +1,33 @@
+#privacy{
+
+}
+
+.privacyP{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    
+}
+.privacyInitials{
+
+
+    font-weight: 700;
+    
+}
+
+@media(max-width:600px){
+    #privacy{
+
+    }
+    
+    .privacyP{
+
+        font-size: 12px;
+        line-height: 18px;
+ 
+        
+    }
+
+}
