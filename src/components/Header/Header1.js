@@ -23,7 +23,7 @@ export const Header1 = () => {
                   <FaRegEnvelope />
                 </div>
               </IconContext.Provider>
-                        <div className='header1Title'>contact@mikaza-renov.fr</div>
+                        <div className='header1Title'>contact@toagri.com</div>
                     </div>
                     <div className='flexRowCenter me-3'>
                     <IconContext.Provider
@@ -33,7 +33,7 @@ export const Header1 = () => {
                   <MdOutlinePhone />
                 </div>
               </IconContext.Provider>
-                    <div className='header1Title'>+33 (0)7 67 32 10 18</div>
+                    <div className='header1Title'>+212 (0)6  11 22 33 44</div>
                     </div>
                     {/* <div className='flexRowCenter me-3'>
                     <img src={location} className='icons'/>
