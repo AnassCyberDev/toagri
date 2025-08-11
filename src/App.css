@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'tagesschrift';
+  src: url('/assets/fonts/Tagesschrift-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color:#f2f7ff ;
+}
+
 .App {
   text-align: center;
 }

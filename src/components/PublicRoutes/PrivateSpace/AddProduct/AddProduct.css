@@ -1,0 +1,85 @@
+#addProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addItem{
+    width: 90%;
+}
+
+.add_P{
+    margin: 10px;
+    border-right: solid 2px #14B8A6;
+    height: 50px;
+}
+
+/* #addProduct .title{
+ 
+} */
+
+#addProduct span{
+    color: #334155;
+    border-bottom: solid 2px #14B8A6;
+   
+ 
+    
+}
+.productImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.scroll-y {
+    overflow-y: auto; /* or scroll */
+    max-height: 300px; /* or any height you want */
+  }
+
+  input[type=file] {
+    color: #222245;
+    padding: 5px 12px;
+    background-color: #fff;
+    border: 1px solid gray;
+    /* margin: 10px; */
+
+    height: 60px;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+
+  input[type=file]::file-selector-button {
+    margin: 5px;
+    /* margin-bottom: 15px !important; */
+    border: none;
+    background: #14B8A6;
+    padding: 8px 12px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px dashed #14B8A6;
+    color: #CCFBF1;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  
+  .drop-container:hover {
+    background: #CCFBF1;
+    border-color: #111;
+  }
+  
+
+  

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'tagesschrift';
+  src: url('../public/assets/fonts/Tagesschrift-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

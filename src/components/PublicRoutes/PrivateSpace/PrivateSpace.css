@@ -1,0 +1,21 @@
+.hideItemNames{
+    width:90%;
+    margin-left: 10%;
+}
+
+.showItemNames{
+    width:85% ;
+    margin-left: 15%;
+}
+
+.showNames{
+    width: 15%;
+}
+
+.hideNames{
+    width: 10%;
+}
+
+.sideBarItems:hover{
+ transform: scale(1.2,1.2);
+}
